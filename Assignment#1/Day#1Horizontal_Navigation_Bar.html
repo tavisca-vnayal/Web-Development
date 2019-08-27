@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NavBar</title>
+    </head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: blue;
+            border: 2px solid black;
+        }
+        li {
+            float: left;
+            font-size: 100%;
+            font-family: cursive;
+            border-right: 2px solid black;
+        }
+        li:last-child {
+            border-right: none;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: left;
+            padding: 15px 17px;
+            text-decoration: none;
+        }
+        li a:hover {
+            background-color: white;
+            color: blue;
+        }
+        li .active {
+            background-color:chartreuse;
+            color: black;
+        }
+    </style>
+    <body>
+        <h1>Horizontal Navigation Bar - Day#1</h1>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#notifications">Notifications</a></li>
+            <li><a href="#career">Career</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </body>
+</html>

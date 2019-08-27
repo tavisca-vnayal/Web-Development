@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DropDown</title>
+        <style>
+            .dropbtn {
+                background-color: green;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: 2px solid black;
+                cursor: pointer;
+            }
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            .dropdown:hover .dropbtn {
+                background-color: darkgreen;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: aliceblue;
+                min-width: 200px;
+                text-align: center;
+                font-family: cursive;
+                font-size: 100%;
+            }
+            .dropdown-content a {
+                color: black;
+                text-align: center;
+                text-decoration: none;
+                display: block;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .dropdown-content a:hover {
+                background-color: cornflowerblue;
+            }     
+        </style>
+    </head>
+    <body>  
+        <h1>Dropdown - Day#2</h1>
+        <p>Move the mouse over the text below to open the dropdown content.</p>
+
+        <div class="dropdown">
+            <button class="dropbtn">Training Material</button>
+            <div class="dropdown-content">
+                <a href="#html">HTML</a>
+                <a href="#css">CSS</a>
+                <a href="#javascript">Javascript</a>
+            </div>
+        </div>
+    </body>
+</html>
